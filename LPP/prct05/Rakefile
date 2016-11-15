@@ -1,0 +1,22 @@
+task :default => :tu
+
+desc "Pruebas unitarias de la clase Número"
+task :tu do
+  sh "ruby -I. test/tc_numero.rb"
+end
+
+desc "Ejecutar solo las pruebas simples"
+task :simple do
+  sh "ruby -I. test/tc_numero.rb -n /simple/"
+end
+
+
+desc "Ejecutar solo las pruebas de operaciones"
+task :oper do
+  sh "ruby -I. test/tc_numero.rb -n /operaciones/"
+end
+
+desc "Ejecutar solo las pruebas de raise"
+task :raise do
+  sh "ruby -I. test/tc_numero.rb -n /raises/"
+end

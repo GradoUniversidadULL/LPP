@@ -1,0 +1,22 @@
+Respuestas a las preguntas de la práctica 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.- ¿Cuál es la ventaja de reorganizar (rebase)?
+2.- ¿Qué es una reorganización (rebase)?
+Coger todos los cambios confirmados en una rama, y reaplicarlos sobre otra.

@@ -1,0 +1,14 @@
+¿Qué es RVM?
+
+Ruby Version Manager, a menudo abreviado como RVM, es una plataforma de software diseñada para gestionar varias instalaciones de Ruby en el mismo dispositivo. 
+
+¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete
+de Ruby (ruby helloWorld.rb) y el intérprete interactivo del ejercicio anterior?
+
+El irb imprime directamente el Hello World, mientras el con el archivo imprime también las líneas de código escritas en el mismo
+
+
+¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete
+interactivo y con pry?
+
+Pry permite interacturar con el código definido,definir nuevo código y comprobar el valor del mismo.
